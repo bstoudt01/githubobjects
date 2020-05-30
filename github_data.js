@@ -4406,3 +4406,15 @@ const githubData = [
       }
     }
   ]
+
+  console.log(githubData[6].payload.commits[0].message)
+
+  //omgz this took wwwwaaaaayy to long!!
+
+  //i had forgotten to use array [0].message 
+// I had it without the [0] and i got an "unknown" result
+// i tried pulling the info into a variable to restructure  using the for(let i = 0......)
+// lesson learned... if pulling data from a object that is nested in an array 
+//you need to use the array position (zero index's).. with an variable you can use [0] to look at a specific object{}
+// then dot notation to move forward through the properties of the object... then array[0].property if you run into an array.
+
